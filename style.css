@@ -25,9 +25,10 @@ p {
     flex: 1;
 }
 
-.row{
+.row {
     width:100%;
     max-width:800;
+    margin: 0 auto;
 }
 
 li{
@@ -56,7 +57,7 @@ nav {
     font-weight: 700;
 }
 
-.nav_link--anchor-primary{
+.nav__link--anchor-primary{
     background-color: #6030b1;
     padding: 8px 20px;
     border-radius: 50px;
@@ -68,7 +69,7 @@ nav {
     background-color: #5d3eff;
 }
 
-.personal_logo{
+.personal__logo{
     font-size: 24px;
     color: #6030b1;
     margin: 0 12px;
@@ -81,7 +82,7 @@ nav {
     flex-direction: column;
 }
 
-.about-me__info-container{
+.about-me__info--container{
     display: flex;
     flex-direction: column;
     align-items: center;
